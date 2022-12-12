@@ -3478,6 +3478,7 @@ function Library:textbox(options)
 	local methods = {}
 
 	function methods:Set(text)
+		print(text)
 		textBox.Text = tostring(text)
 	end
 
